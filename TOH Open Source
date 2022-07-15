@@ -1,0 +1,24 @@
+-- Gui
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Tower of Hell", "Midnight")
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("Scripts")
+
+--Stuff
+
+Section:NewButton("OP Gui", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iiProductionz/Floater-Scripts/main/WaifuEdition/Tower%20Of%20Hell"))()
+end)
+
+Section:NewButton("Admin Cmds", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
+end)
+
+Section:NewButton("TheMystery Gui", "", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+end)
+
+Section:NewButton("Ruby Hub", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/TOH/main/Ruby%20Hub", true))()
+end)
